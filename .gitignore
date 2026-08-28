@@ -1,0 +1,97 @@
+# ---------------------------------------------------------------------------
+# Data. Every dataset used here is public and downloaded by the scripts in
+# code/dataio/, so none of it belongs in the repository. Redistributing it would
+# also break the licences: PAPILA is GPL-3.0+, DeepDRiD CC BY-SA 4.0, and the
+# ODIR mirror MIT — each with its own attribution terms.
+# ---------------------------------------------------------------------------
+data/
+
+# ---------------------------------------------------------------------------
+# Outputs. All of it regenerates from the scripts; committing it would make the
+# repository large and let stale numbers drift out of sync with the code.
+# ---------------------------------------------------------------------------
+outputs/
+
+# Cached backbone features, wherever they land
+*.npz
+*.npy
+*.pt
+*.pth
+*.safetensors
+*.parquet
+
+# Figures and tables
+*.png
+*.pdf
+*.svg
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+
+# ---------------------------------------------------------------------------
+# Credentials. kaggle.json carries an API token.
+# ---------------------------------------------------------------------------
+kaggle.json
+.kaggle/
+.env
+*.key
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# Testing and type checking
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# ---------------------------------------------------------------------------
+# Editors and OS
+# ---------------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------------------------------------------------------------------------
+# Manuscript drafts — kept out of the public repository; the paper itself is
+# the published artefact. Remove this block if you want the drafts tracked.
+# ---------------------------------------------------------------------------
+paper/

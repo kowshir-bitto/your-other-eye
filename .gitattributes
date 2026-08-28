@@ -1,0 +1,19 @@
+# Normalise line endings so the repository stores LF regardless of the platform
+# it was committed from. Without this a Windows checkout commits CRLF and every
+# file shows as modified when someone clones on Linux or macOS.
+* text=auto eol=lf
+
+# Binary formats git must not touch
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.npz binary
+*.npy binary
+*.pt  binary
+*.pth binary
+*.parquet binary
+*.xlsx binary
+
+# Keep diffs on notebooks readable if any are ever added
+*.ipynb text
