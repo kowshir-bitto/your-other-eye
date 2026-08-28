@@ -259,13 +259,3 @@ channels whose zero training variance would otherwise send held-out samples to
 absurd values.
 
 ---
-
-## Citation
-
-```bibtex
-@article{yourotherye2026,
-  title  = {Your Other Eye: measuring patient-identity leakage in retinal representations},
-  author = {TODO},
-  year   = {2026}
-}
-```
