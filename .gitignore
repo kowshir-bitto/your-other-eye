@@ -89,9 +89,3 @@ htmlcov/
 .DS_Store
 Thumbs.db
 desktop.ini
-
-# ---------------------------------------------------------------------------
-# Manuscript drafts — kept out of the public repository; the paper itself is
-# the published artefact. Remove this block if you want the drafts tracked.
-# ---------------------------------------------------------------------------
-paper/
